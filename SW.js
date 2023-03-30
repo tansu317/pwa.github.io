@@ -4,10 +4,10 @@ self.addEventListener('install', function(event) {
         .then(function(cache) {
           cache.addAll([
             '/',
-            '/index.html',
-            '/src/css/app.css',
-            '/src/js/app.js',
-            '/manifest.json'
+            'index.html',
+            'src/css/app.css',
+            'src/js/app.js',
+            'manifest.json'
           ])
         })
     );
